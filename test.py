@@ -1,7 +1,10 @@
 import math
 
 def main():
-    print "11000".split("")
+    set = {1,2,3}
+    set.remove(3)
+    set.add(5)
+    print set
 
 
 if __name__ == '__main__':
